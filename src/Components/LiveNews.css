@@ -1,0 +1,127 @@
+.latest-news {
+  background-color: #f9f9f9; /* Neutral light gray background */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+.news-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333; /* Dark gray for readability */
+}
+
+.news-container {
+  display: flex;
+  justify-content: center;
+}
+
+.news-card {
+  background-color: #fff; /* Plain white background */
+  border-radius: 12px;
+  border: 1px solid #ddd; /* Light gray border */
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #333;
+  width: 100%; /* Full width for the card */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* Gap between items */
+}
+
+.grid-item {
+  background-color: #f0f0f0; /* Very light gray background */
+  border-radius: 10px; /* Rounded corners */
+  padding: 15px; /* Internal padding */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-bottom: 20px; /* Space below each item */
+  transition: transform 0.3s; /* Animation on hover */
+}
+
+.grid-item:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Slightly more pronounced shadow */
+}
+
+.news-card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555; /* Medium gray */
+}
+
+.news-card-description {
+  font-size: 1rem;
+  color: #777; /* Slightly lighter gray */
+  margin-bottom: 15px;
+}
+
+.read-more-link {
+  color: #0066cc; /* Blue link */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.read-more-link:hover {
+  color: #004080; /* Darker blue on hover */
+}
+
+.news-divider {
+  border: none;
+  border-top: 1px solid #ddd; /* Subtle gray line */
+  margin: 10px 0; /* Space above and below the line */
+}
+
+.no-news {
+  text-align: center;
+  font-size: 1rem;
+  color: #888; /* Light gray text */
+}
+
+.show-more {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #0066cc; /* Blue button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.show-more:hover {
+  background-color: #004080; /* Darker blue on hover */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between the buttons */
+  margin-top: 20px; /* Margin above the buttons */
+}
+
+.refresh-news {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #28a745; /* Green button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.refresh-news:hover {
+  background-color: #1e7e34; /* Darker green on hover */
+}

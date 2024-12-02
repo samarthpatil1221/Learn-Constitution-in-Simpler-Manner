@@ -1,0 +1,81 @@
+/* Overall container styling */
+.constitution-container {
+    padding: 50px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Vibrant purple-blue gradient */
+    color: #fff;
+    font-family: "Arial", sans-serif;
+}
+
+/* Section title styling */
+.constitution-title {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+/* Grid layout for the cards */
+.constitution-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Individual card styling */
+.constitution-card {
+    background: #ffffff;
+    color: #333;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    perspective: 1000px; /* For 3D effect */
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+/* Title inside the card */
+.constitution-card-title {
+    font-size: 1.8rem;
+    margin: 15px 0;
+    color: #2575fc; /* Matches gradient */
+    font-weight: bold;
+}
+
+/* Image styling for each card */
+.constitution-card-image {
+    width: 28%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Description list styling */
+.constitution-card-description {
+    text-align: left;
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 20px;
+    color: #555;
+}
+
+/* Hover effect for 3D interaction */
+.constitution-card:hover {
+    transform: translateY(-15px) rotateX(5deg) rotateY(5deg); /* 3D hover effect */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #fefefe, #f0f4ff);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .constitution-grid {
+        grid-template-columns: 1fr; /* Single column on smaller screens */
+    }
+}

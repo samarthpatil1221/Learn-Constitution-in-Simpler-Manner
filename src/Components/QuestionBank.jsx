@@ -1,0 +1,190 @@
+const qBank = {
+    easy: [
+        {
+            id: 1,
+            question: "What is the supreme law of India?",
+            options: ["The President", "The Prime Minister", "The Constitution", "The Parliament"],
+            answer: "The Constitution",
+        },
+        {
+            id: 2,
+            question: "Which part of the Constitution contains Fundamental Rights?",
+            options: ["Part III", "Part IV", "Part II", "Part VI"],
+            answer: "Part III",
+        },
+        {
+            id: 3,
+            question: "Who is known as the Father of the Indian Constitution?",
+            options: ["Mahatma Gandhi", "Jawaharlal Nehru", "Dr. B.R. Ambedkar", "Sardar Patel"],
+            answer: "Dr. B.R. Ambedkar",
+        },
+        {
+            id: 4,
+            question: "How many schedules are there in the Indian Constitution?",
+            options: ["10", "12", "11", "9"],
+            answer: "12",
+        },
+        {
+            id: 5,
+            question: "Which article deals with the Right to Equality?",
+            options: ["Article 14-18", "Article 21", "Article 19", "Article 32"],
+            answer: "Article 14-18",
+        },
+        {
+            id: 6,
+            question: "What is the minimum age to vote in India?",
+            options: ["18", "21", "16", "25"],
+            answer: "18",
+        },
+        {
+            id: 7,
+            question: "Which Article deals with the abolition of untouchability?",
+            options: ["Article 14", "Article 17", "Article 19", "Article 21"],
+            answer: "Article 17",
+        },
+        {
+            id: 8,
+            question: "How many Fundamental Duties are in the Constitution?",
+            options: ["11", "9", "12", "10"],
+            answer: "11",
+        },
+        {
+            id: 9,
+            question: "Which Article is related to the promotion of Hindi as the national language?",
+            options: ["Article 343", "Article 351", "Article 356", "Article 360"],
+            answer: "Article 351",
+        },
+        {
+            id: 10,
+            question: "Which Article is related to the Right to Constitutional Remedies?",
+            options: ["Article 21", "Article 19", "Article 32", "Article 14"],
+            answer: "Article 32",
+        },
+    ],
+    medium: [
+        {
+            id: 1,
+            question: "Who appoints the Chief Justice of India?",
+            options: ["The Prime Minister", "The President", "The Supreme Court", "The Parliament"],
+            answer: "The President",
+        },
+        {
+            id: 2,
+            question: "Which Amendment added Fundamental Duties to the Constitution?",
+            options: ["42nd Amendment", "44th Amendment", "46th Amendment", "48th Amendment"],
+            answer: "42nd Amendment",
+        },
+        {
+            id: 3,
+            question: "The Indian Constitution was adopted on which date?",
+            options: ["15th August 1947", "26th January 1950", "26th November 1949", "2nd October 1950"],
+            answer: "26th November 1949",
+        },
+        {
+            id: 4,
+            question: "How many types of emergencies are mentioned in the Indian Constitution?",
+            options: ["2", "3", "4", "5"],
+            answer: "3",
+        },
+        {
+            id: 5,
+            question: "Which part of the Constitution mentions Directive Principles of State Policy?",
+            options: ["Part III", "Part IV", "Part II", "Part V"],
+            answer: "Part IV",
+        },
+        {
+            id: 6,
+            question: "The concept of 'Judicial Review' is borrowed from which country?",
+            options: ["USA", "UK", "Canada", "France"],
+            answer: "USA",
+        },
+        {
+            id: 7,
+            question: "The idea of a 'Federation with a Strong Centre' is borrowed from which country?",
+            options: ["USA", "UK", "Canada", "France"],
+            answer: "Canada",
+        },
+        {
+            id: 8,
+            question: "Which Article deals with the impeachment of the President?",
+            options: ["Article 61", "Article 63", "Article 64", "Article 67"],
+            answer: "Article 61",
+        },
+        {
+            id: 9,
+            question: "How many members are nominated to the Rajya Sabha by the President?",
+            options: ["12", "10", "15", "14"],
+            answer: "12",
+        },
+        {
+            id: 10,
+            question: "Who can amend the Constitution of India?",
+            options: ["President", "Prime Minister", "Parliament", "Supreme Court"],
+            answer: "Parliament",
+        },
+    ],
+    hard: [
+        {
+            id: 1,
+            question: "Who was the first Law Minister of Independent India?",
+            options: ["Dr. B.R. Ambedkar", "Sardar Patel", "Jawaharlal Nehru", "Maulana Azad"],
+            answer: "Dr. B.R. Ambedkar",
+        },
+        {
+            id: 2,
+            question: "Which schedule of the Constitution deals with Panchayati Raj?",
+            options: ["10th Schedule", "11th Schedule", "8th Schedule", "12th Schedule"],
+            answer: "11th Schedule",
+        },
+        {
+            id: 3,
+            question: "What is the maximum number of members in Lok Sabha?",
+            options: ["545", "550", "552", "560"],
+            answer: "552",
+        },
+        {
+            id: 4,
+            question: "Which part of the Constitution is referred to as the 'Soul of the Constitution'?",
+            options: ["Part III", "Part IV", "Preamble", "Part VI"],
+            answer: "Preamble",
+        },
+        {
+            id: 5,
+            question: "The Ninth Schedule of the Constitution was introduced by which Amendment?",
+            options: ["1st Amendment", "7th Amendment", "9th Amendment", "42nd Amendment"],
+            answer: "1st Amendment",
+        },
+        {
+            id: 6,
+            question: "Which Article is related to the Prohibition of Child Labor?",
+            options: ["Article 23", "Article 24", "Article 25", "Article 22"],
+            answer: "Article 24",
+        },
+        {
+            id: 7,
+            question: "Which Constitutional Amendment is related to Goods and Services Tax (GST)?",
+            options: ["99th Amendment", "100th Amendment", "101st Amendment", "102nd Amendment"],
+            answer: "101st Amendment",
+        },
+        {
+            id: 8,
+            question: "Which committee is responsible for drafting the Indian Constitution?",
+            options: ["Constituent Assembly", "Drafting Committee", "Union Committee", "Law Commission"],
+            answer: "Drafting Committee",
+        },
+        {
+            id: 9,
+            question: "Who was the first speaker of the Lok Sabha?",
+            options: ["M. Ananthasayanam Ayyangar", "Ganesh Vasudev Mavalankar", "R. Venkataraman", "Balram Jakhar"],
+            answer: "Ganesh Vasudev Mavalankar",
+        },
+        {
+            id: 10,
+            question: "Which case is associated with the Basic Structure Doctrine?",
+            options: ["Golak Nath case", "Kesavananda Bharati case", "Minerva Mills case", "S.R. Bommai case"],
+            answer: "Kesavananda Bharati case",
+        },
+    ],
+};
+
+export default qBank;
